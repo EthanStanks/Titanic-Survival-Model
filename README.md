@@ -3,17 +3,7 @@ SKLearn KneighborsClassifier model that predicts a Titanic passenger's survival
 
 # Data
 My class provided a dataset with information about the titanic passengers and their info.
-Variable	Definition	
-survival	Survival	
-pclass	    Ticket class	
-sex	        Sex	
-Age	        Age in years	
-sibsp	    # of siblings / spouses aboard the Titanic	
-parch	    # of parents / children aboard the Titanic	
-ticket	    Ticket number	
-fare	    Passenger fare	
-cabin	    Cabin number	
-embarked	Port of Embarkation	C = Cherbourg, Q = Queenstown, S = Southampton
+Features in the dataset: Survival, Ticket class, Sex, Age in years, # of family members, Ticket number, Passenger fare, Cabin number, and Port of Embarkation.
 
 # Data Processing
 I dropped all n/a values as well as multiple features that didn't correlate to a passenger's survival.
